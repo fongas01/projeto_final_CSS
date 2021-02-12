@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: black;
+    width: 100%;
+    height: 120px;
+}
+
+#logo img {
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.menu li {
+    list-style-type: none;
+    /*tirar os pontos do link*/
+}
+
+nav {
+    text-transform: uppercase;
+    /*coloca o menu em letra de forma*/
+    position: absolute;
+    /*coloca na parte superior e no lado direito, o menu */
+    top: 50px;
+    /*para centralizar o menu, usamos a metade da altura do logo*/
+    right: 0;
+    margin-right: 20px;
+    /*distancia do menu com a borda*/
+}
+
+nav a {
+    text-decoration: none;
+    /*tirar o sublinhado do link*/
+}
+
+nav li {
+    display: inline;
+    /*coloca o menu em linha horizontal*/
+    margin: 0 0 0 20px;
+    /*aumenta o espaço entre os itens no menu*/
+}
+
+figure img {
+    width: 100%;
+    height: 500px;
+}
