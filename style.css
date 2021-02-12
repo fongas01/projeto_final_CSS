@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    /*define @@@@@@*/
 }
 
 header {
@@ -47,5 +49,21 @@ nav li {
 
 figure img {
     width: 100%;
-    height: 500px;
+    height: 400px;
+}
+
+main img {
+    /*margin-top: 50px;*/
+    width: 200px;
+    height: 200px;
+}
+
+#principal {
+    display: inline;
+}
+
+.secao1 {
+    position: relative;
+    top: o;
+    right: o;
 }
