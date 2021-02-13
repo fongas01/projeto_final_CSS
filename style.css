@@ -65,7 +65,7 @@ main img {
 
 //posicionamento da fila01 com flex-box//
 
-/*Colocar a fila01 em linha. primeiro definir o FLEX do pai. pq os filho obedecem o mesmo*/
+/*Colocar FLEX no pai e no filho*/
 
 main {
     display: flex;
@@ -73,4 +73,13 @@ main {
 
 .grid1 {
     display: flex;
+    /*indicar que pode quebrar*/
+    flex-wrap: wrap;
+}
+
+
+/*colocando a altura igual a 200px para todas as fotos*/
+
+.grid1>div {
+    flex: 1 1 200px;
 }
