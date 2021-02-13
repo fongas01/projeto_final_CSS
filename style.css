@@ -58,9 +58,12 @@ main img {
     height: 200px;
 }
 
-#principal .fila01 {
-    display: inline;
-    margin: 0 0 0 20px;
+//posicionamento da fila01//
+
+/*colocar display inline block no PAI e no FILHO*/
+
+main #principal .fila01 {
+    display: inline-block;
 }
 
 .PriFilVertic img {
