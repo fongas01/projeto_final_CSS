@@ -7,6 +7,8 @@
 
 header {
     background: rgb(0, 0, 0);
+    flex-wrap: wrap;
+    /*para que não deforme se usuario estiver em uma tela menor*/
     width: 100%;
     height: 120px;
 }
@@ -38,6 +40,7 @@ nav {
 nav a {
     text-decoration: none;
     /*tirar o sublinhado do link*/
+    color: white;
 }
 
 nav li {
@@ -58,12 +61,12 @@ main img {
     height: 200px;
 }
 
-//posicionamento da fila01//
+//posicionamento da fila01 com flex-box//
 
-/*colocar display inline block no PAI e no FILHO*/
+/*Colocar a fila01 em linha. primeiro definir o FLEX do pai. pq os filho obedecem o mesmo*/
 
 main #principal .fila01 {
-    display: inline-block;
+    display: flex;
 }
 
 .PriFilVertic img {
