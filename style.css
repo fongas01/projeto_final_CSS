@@ -6,7 +6,7 @@
 }
 
 header {
-    background: black;
+    background: rgb(0, 0, 0);
     width: 100%;
     height: 120px;
 }
@@ -58,12 +58,22 @@ main img {
     height: 200px;
 }
 
-#principal {
+#principal .fila01 {
     display: inline;
+    margin: 0 0 0 20px;
 }
 
-.secao1 {
-    position: relative;
-    top: o;
-    right: o;
+.PriFilVertic img {
+    width: 200px;
+    height: 200px;
+}
+
+.SegFilVertic img {
+    width: 200px;
+    height: 200px;
+}
+
+.FotoHorizontal img {
+    width: 600px;
+    height: 300px;
 }
