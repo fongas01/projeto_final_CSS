@@ -59,29 +59,18 @@ figure img {
 
 main img {
     /*margin-top: 50px;*/
-    width: 200px;
-    height: 200px;
+    max-width: 100%;
+    display: block;
 }
 
 //posicionamento da fila01 com flex-box//
 
 /*Colocar a fila01 em linha. primeiro definir o FLEX do pai. pq os filho obedecem o mesmo*/
 
-main .principal .fila01 {
+main {
     display: flex;
 }
 
-.PriFilVertic img {
-    width: 200px;
-    height: 200px;
-}
-
-.SegFilVertic img {
-    width: 200px;
-    height: 200px;
-}
-
-.FotoHorizontal img {
-    width: 600px;
-    height: 300px;
+.grid1 {
+    display: flex;
 }
