@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*define @@@@@@*/
 }
 
 header {
@@ -63,15 +62,17 @@ main img {
     display: block;
 }
 
-//posicionamento da fila01 com flex-box//
 
-/*Colocar FLEX no pai e no filho*/
+/*usando FLEX-BOX*/
+
+
+/* use FLEX no pai e no filho*/
 
 main {
     display: flex;
 }
 
-.grid1 {
+.flex {
     display: flex;
     /*indicar que pode quebrar*/
     flex-wrap: wrap;
@@ -80,7 +81,16 @@ main {
 
 /*colocando a altura igual a 200px para todas as fotos*/
 
-.grid1>div {
+.flex>div {
     flex: 1 1 200px;
     margin: 5px;
+}
+
+
+/*usando GRID*/
+
+.grid1 {
+    /* background-color: sienna;*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
