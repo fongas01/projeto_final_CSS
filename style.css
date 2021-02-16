@@ -92,7 +92,7 @@ main {
 
 /*segunda parte - 2 containers*/
 
-.container img {
+.container1 img {
     max-width: 100%;
     width: 200px;
     height: 200px;
@@ -141,9 +141,13 @@ main {
 
 */
 
-article {}
+.container2 {
+    margin-top: 30px;
+}
 
-aside {}
+.article {}
+
+.aside {}
 
 .rodape {
     position: relative;
