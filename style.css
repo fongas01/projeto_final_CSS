@@ -48,6 +48,14 @@ nav a {
     color: white;
 }
 
+
+/*açao do mouse sobre o link*/
+
+nav a:hover {
+    background-color: teal;
+    padding: 10px;
+}
+
 nav li {
     display: inline;
     /*coloca o menu em linha horizontal*/
@@ -103,9 +111,11 @@ main {
     padding: 10px;
 }
 
-.container2 {
-    display: inline;
-    margin-top: 315px;
+.grid3 {
+    position: relative;
+    top: 315px;
+    left: 1000px;
+    right: 30px;
 }
 
 .FotoHorizontal img {
