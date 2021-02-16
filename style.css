@@ -102,6 +102,7 @@ main {
 
 .container1 {
     display: flex;
+    right: 30px;
 }
 
 .container1 img {
@@ -112,15 +113,14 @@ main {
 }
 
 .grid3 {
-    position: relative;
-    top: 315px;
-    left: 1000px;
-    right: 30px;
+    position: absolute;
+    top: 1000px;
+    left: 600px;
 }
 
 .FotoHorizontal img {
     max-width: 100%;
-    width: 400px;
+    width: 350px;
     height: 200px;
 }
 
