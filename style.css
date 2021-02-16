@@ -104,12 +104,11 @@ main {
 }
 
 h3 p {
-    float: right;
+    align-items: ;
 }
 
 .container2 {
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
 }
 
 .FotoHorizontal img {
