@@ -92,6 +92,10 @@ main {
 
 /*segunda parte - 2 containers*/
 
+.container1 {
+    display: flex;
+}
+
 .container1 img {
     max-width: 100%;
     width: 200px;
@@ -99,13 +103,13 @@ main {
     padding: 10px;
 }
 
-.container1 {
-    display: flex;
+h3 p {
+    float: right;
 }
 
 .container2 {
-    display: grid;
-    grid-template-rows: 2 / 2;
+    display: flex;
+    justify-content: space-between;
 }
 
 .FotoHorizontal img {
