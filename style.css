@@ -108,9 +108,9 @@ main {
 
 .container1 img {
     max-width: 100%;
-    width: 150px;
-    height: 150px;
-    padding: 30px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
 }
 
 
@@ -136,11 +136,11 @@ main {
 
 .container1 h4 {
     text-align: center;
-    float: right;
 }
 
 .container1 p {
     text-align: center;
+    font-size: x-small;
 }
 
 h5 {
