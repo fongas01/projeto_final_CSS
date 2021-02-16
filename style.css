@@ -103,12 +103,9 @@ main {
     padding: 10px;
 }
 
-h3 p {
-    align-items: ;
-}
-
 .container2 {
-    display: inline-block;
+    display: inline;
+    margin-top: 315px;
 }
 
 .FotoHorizontal img {
